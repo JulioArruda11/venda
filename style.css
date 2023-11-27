@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+body {
+    background-colo: rgba(28, 183, 204, 0.767);
+    margin: auto;
+    width: 1000px;
+    background-image: image-set("imagens/fundo 1.jpg");
+    
+}
+
+main{
+    text-align: center;
+    width: auto;
+    background-color: rgba(92, 79, 165, 0.911);
+    border-radius: 1em;    
+}
+
+h1 {
+    font-family: 'pirata one';
+    text-align: center;
+}
+
+h2 {
+    font-family: 'pirata one';
+    text-align: center;
+}
+
+p {
+    font-family:  'rock salt';
+    font-weight: bold;
+    text-align: justify;
+    text-indent: 4em;
+    
+}
+button {
+    background-color: black;
+    color: aqua;
+}
